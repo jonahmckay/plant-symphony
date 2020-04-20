@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <title>Plant Symphony</title>
+
+    <link rel=icon type="image/png" href="favicon.png">
+    <!-- CSS stylesheet(s) -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Library scripts -->
+
+    <!-- jQuery and jQuery UI -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"></script>
+
+    <!-- A-Frame -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <!-- Pizzicato -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
+
+    <!-- My scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/ui.js"></script>
+
+  </head>
+
+  <body>
+
+    <a-scene vr-mode-ui="enabled: false" background="color: #000000" auto-render>
+      <a-assets>
+        <a-asset-item id="cylinder" src="assets/models/cylinder.gltf"></a-asset-item>
+        <a-asset-item id="organic" src="assets/models/organic.gltf"></a-asset-item>
+        <a-asset-item id="leaf" src="assets/models/leaf.gltf"></a-asset-item>
+        <a-asset-item id="bell" src="assets/models/bell.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-entity id="camera-pivot" position="0 1.6 0" auto-rotate>
+        <a-entity id="rig" position="0 0 4">
+          <a-entity id="camera" camera></a-entity>
+        </a-entity>
+      </a-entity>
+      <!--<a-sphere position="0 2 0" rotation="-90 0 0" radius="0.75" color="#AAFF5D" shadow>
+      <a-cylinder position="0 1 0" rotation="-90 0 0" radius="0.25" height="2" color="#FFC65D" shadow></a-cylinder>
+    </a-sphere> !-->
+      <a-plane position="0 0 0" rotation="-90 0 0" width="400" height="400" color="#7BC8A4" shadow></a-plane>
+    </a-scene>
+
+  </body>
+
+</html>

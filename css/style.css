@@ -1,0 +1,99 @@
+body {
+
+}
+
+.barButton
+{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.barButton:hover
+{
+  opacity: 0.8;
+}
+
+#UIBar
+{
+  width: 100%;
+  height: 100px;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.shortInput
+{
+  width: 75px;
+}
+
+#partsButton
+{
+  background-image: url('../assets/images/partsicon.png');
+  background-size: cover;
+}
+
+#rulesButton
+{
+  background-image: url('../assets/images/rulesicon.png');
+  background-size: cover;
+}
+
+#plantButton
+{
+  background-image: url('../assets/images/planticon.png');
+  background-size: cover;
+}
+
+#simulationButton
+{
+  background-image: url('../assets/images/simulationicon.png');
+  background-size: cover;
+}
+
+#musicButton
+{
+  background-image: url('../assets/images/musicicon.png');
+  background-size: cover;
+}
+
+#togglePlayButton
+{
+  background-image: url('../assets/images/pauseicon.png');
+  background-size: cover;
+}
+
+#infoButton
+{
+  background-image: url('../assets/images/infoicon.png');
+  background-size: cover;
+}
+#partsDialogRulesDiv
+{
+  margin-top: 20px;
+}
+
+.partsDialogRuleLine
+{
+  margin-top: 10px;
+}
+
+#partsDialogAddRule
+{
+  margin-top: 10px;
+}
+
+#rulesDialogOptions
+{
+  margin-top: 20px;
+}
+
+#plantDialogRestartButton
+{
+  margin-left: 20px;
+}
