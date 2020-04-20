@@ -8,7 +8,7 @@ Plant Symphony is a toy application that allows you to play with procedural
 generation of plant-like structures, as well as procedural music generation.
 
 You can see it live here:
-https://jonahmckay.github.io/cart263/projects/plant-symphony/
+https://jonahmckay.github.io/plant-symphony/
 
 Made for Project 3, This Time It's Personal for CART263.
 https://github.com/pippinbarr/cart263-2020
@@ -24,8 +24,7 @@ The site runs entirely client side, although some browsers may require the site
 to be run by a server as it accesses external libraries from the Internet. Plant
 Symphony ought to run on all modern browsers and operating systems, but if you
 find any issues, browser-specific or otherwise, please raise it on the GitHub
-repository. (currently this project only resides on the jonahmckay/cart263 repository,
-however I plan to move it to its own repository shortly after class submission.)
+repository.
 
 It uses the following JavaScript libraries/frameworks:
 
